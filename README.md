@@ -13,8 +13,30 @@ wire out_and1, out_and2;
    
 ${\color{green}// Verilog \space primitives \space (and, or, not), \space port \space order\space  matters, \space output \space first }$  
 not not1(not_SEL,SEL);  
-and and1(out_and1, not_SEL,A);  
-and and2(out_and2, SEL,B);  
+and and1(out_and1, SEL,A);  
+and and2(out_and2, not_SEL,B);  
 or or1(X, out_and1, out_and2);  
   
+endmodule  
+## Data flow level:  
+module multiplex_gatelevel(A,B,SEL,X);  
+  
+input A,B,SEL;  
+output X;  
+assign X = (X&A)|(~X&B);  
+  
+endmodule
+  
+## Behavioral level:  procedural block  
+module multiplex_gatelevel(A,B,SEL,X);  
+  
+input A,B,SEL;  
+output X;  
+always@(*) // * means code will execute anytime any signal changes  
+begin  
+if(SEL == 1)  
+X = A;  
+else  
+X = B;  
+end  
 endmodule  
