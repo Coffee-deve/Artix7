@@ -77,7 +77,7 @@ Script used in Active-HDL to compile the design, start simulation, display wavef
 
 ### Scripts Explanation
 
-- **TutorVerilog.v/** 
+- **TutorVerilog.v** 
 
 **Purpose:**  
 Implements the main digital logic of the project.
@@ -93,7 +93,7 @@ Implements the main digital logic of the project.
 
 ---
 
-- **TutorVerilog_TB.v/** 
+- **TutorVerilog_TB.v** 
 
 **Purpose:**  
 Testbench used to verify the functionality of the counter.
@@ -107,7 +107,7 @@ Testbench used to verify the functionality of the counter.
 
 ---
 
-- **simulation_script.do/** 
+- **simulation_script.do** 
 
 **Purpose:**  
 Automates simulation in Active-HDL.
