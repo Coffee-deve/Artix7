@@ -1,5 +1,9 @@
 # Artix7
-My project of 3bit counter in Verilog written for Artix7. In verilog we are able to work on three layers of abstraction: Gate level, Data flow level, Behavioral level. Those are three different ways of describing hardware.    
+In verilog we are able to work on three layers of abstraction: Gate level, Data flow level, Behavioral level. Those are three different ways of describing hardware, and those were used while designing the project. It is a digital design project written in Verilog HDL and targeted for Artix-7 FPGA devices. The design implements a 3-bit programmable up/down BCD counter with additional control features such as data loading, clock enable, tri-state output, and a selectable input register.
+
+The project was developed and simulated using Aldec Active‑HDL and synthesized using Xilinx Vivado.
+
+The repository contains the main Verilog module, a testbench used for verification, and simulation scripts.
 ## Gate level:
 ![gatelevelim](image/gatelevel.png)
 ${\color{green}// user-defined \space module, \space port \space order \space doesnt\space  matter}$  
