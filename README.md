@@ -27,16 +27,16 @@ After running the simulation, the waveform results verify correct behavior of th
 - **src/** 
 Main folder containing the Verilog design files.
 
-- **TutorVerilog.v/**
+- **TutorVerilog.v**
 The main Verilog module implementing the counter logic, latch register, multiplexer, and tri-state output buffer.
 
-- **TestBench//**
+- **TestBench/**
 Folder containing files used for simulation and verification.
 
-- **TutorVerilog_TB.v/**
+- **TutorVerilog_TB.v**
 Testbench generating input stimuli such as clock, reset, enable, load, and direction signals.
 
-- **simulation_script.do/**
+- **simulation_script.do**
 Script used in Active-HDL to compile the design, start simulation, display waveforms, and run the testbench.
 
 ---
