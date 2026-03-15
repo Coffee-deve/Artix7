@@ -2,7 +2,7 @@
 //
 // Title       : TutorVerilog_tb
 // Design      : Verilog_design
-// Author      : PJR
+// Author      : Patrycja
 // Company     : AGH
 //
 //-----------------------------------------------------------------------------
