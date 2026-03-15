@@ -59,7 +59,7 @@ Script used in Active-HDL to compile the design, start simulation, display wavef
 ### Installation & Setup
 
 1. **Clone the Repository**
-      - git clone https://github.com/your-username/TutorVerilog.git
+      - git clone
       - cd TutorVerilog
    
 2. **Open the Project in Active-HDL**
@@ -83,7 +83,7 @@ Script used in Active-HDL to compile the design, start simulation, display wavef
 Implements the main digital logic of the project.
 
 **Main components:**
-- 4-bit BCD counter  
+- 3-bit BCD counter  
 - Up/down counting logic  
 - Asynchronous clear  
 - Parallel load register  
