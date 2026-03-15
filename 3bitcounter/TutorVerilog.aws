@@ -1,0 +1,13 @@
+[Version]
+Version=15.0
+[Designs]
+TutorVerilog=TutorVerilog.adf
+[Settings]
+Active=TutorVerilog
+[Expand]
+tutorverilog=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1

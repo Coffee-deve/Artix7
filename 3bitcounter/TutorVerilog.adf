@@ -1,0 +1,35 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=TutorVerilog
+[Library]
+TutorVerilog=.\TutorVerilog\TutorVerilog.lib
+[$LibMap$]
+TutorVerilog=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+fileopenfolder=D:\My_Designs\Tutorials\Verilog_design\src\TestBench
+[Files]
+/TutorVerilog.v=-1
+TestBench/TutorVerilog_TB_runtest.do=-1
+TestBench/TutorVerilog_TB.v=-1
+TestBench/TutorVerilog_TB.v=-1
+[Files.Data]
+.\src\TutorVerilog.v=Verilog Source Code
+.\src\TestBench\TutorVerilog_TB_runtest.do=Macro
+.\src\TestBench\TutorVerilog_TB.v=Verilog Source Code
+.\src\TestBench\TutorVerilog_TB.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1
