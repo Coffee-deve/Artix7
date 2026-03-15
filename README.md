@@ -3,7 +3,7 @@ In verilog we are able to work on three layers of abstraction: Gate level, Data 
 
 The project was developed and simulated using Aldec Active‑HDL and synthesized using Xilinx Vivado.
 
-The repository contains the main Verilog module, a testbench used for verification, and simulation scripts.
+The repository contains the main Verilog module, as well as testbench used for verification.
 ## Gate level:
 ![gatelevelim](image/gatelevel.png)
 ${\color{green}// user-defined \space module, \space port \space order \space doesnt\space  matter}$  
